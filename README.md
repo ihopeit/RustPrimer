@@ -61,6 +61,13 @@ gitbook serve
 
 即可。
 
+By docker:
+
+```
+docker build -t ihopeit/rust-primer:1.0 .
+docker run -d --restart always -p 4008:4000 ihopeit/rust-primer:1.0
+```
+
 ## ChangeLog
 
 1. 2016年3月31日，初稿完成。发布 v1.0 版。
