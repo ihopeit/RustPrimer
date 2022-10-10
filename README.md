@@ -51,7 +51,15 @@ wiki: https://wiki.rust-china.org/
 
 本书使用 `CC BY-SA 3.0` 协议，转载请注明地址。
 
-## GitBook 生成
+## 1.Mdbook 启动服务
+
+因为 gitbook 没有后续的开源版本，推荐使用 mdbook 来生成文档，或者启动服务预览:
+
+```
+mdbook serve
+```
+
+## 2.GitBook 生成
 
 直接用：
 
