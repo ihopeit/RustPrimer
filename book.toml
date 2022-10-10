@@ -1,0 +1,6 @@
+[book]
+authors = ["david ullua"]
+language = "en"
+multilingual = false
+src = "."
+title = "Rust primer"
